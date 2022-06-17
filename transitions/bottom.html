@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: bottom;</title></h1>
+  <style>
+    .container .subject {
+      position: relative;
+      bottom: 50%;
+    }
+
+    .container:hover .subject {
+      bottom: -50%;
+    }
+
+    .subject {
+      transition-property: bottom;
+    }
+  </style>
+  <dialog open class="notice">For a smoother animation, instead of <code>bottom</code> use <code>transform</code></dialog>
+</header>
+
+<section class="container">
+  <div class="subject"></div>
+</section>

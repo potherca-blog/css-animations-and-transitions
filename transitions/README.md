@@ -56,7 +56,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
     - [ ] [`border-top-width`](./border-top-width.html)
     - [ ] [`border-width`](./border-width.html)
   </details>
-- [ ] [`bottom`](./bottom.html)
+- [x] [`bottom`](./bottom.html)
 - [ ] [`box-shadow`](./box-shadow.html)
 - [ ] [`caret-color`](./caret-color.html)
 - [ ] [`clip`](./clip.html)
