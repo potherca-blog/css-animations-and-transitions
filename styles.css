@@ -1,6 +1,9 @@
 :root {
+    --A-size: 12.5em;
+    --B-size: calc(var(--A-size) * 3.5);
+
     /* Colors for objects that are animated */
-    --A-darkst: #917c0e;
+    --A-darkest: #917c0e;
     --A-darker: #af9100;
     --A-dark: #d3b000;
     --A: #ffd500;
@@ -17,7 +20,7 @@
 }
 
 body, html {
-    background: #FAFAFA;
+    background: #f9f9f9;
     height: 100%;
     margin: 0;
     overflow: hidden;
@@ -25,28 +28,67 @@ body, html {
     width: 100%;
 }
 
-/*/ Inner block /*/
-div {
-    background: var(--A);
-    border: 1em solid var(--A-darker);
+title {
+    display: block;
+}
+header {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+header h1, header style {
+    background: #fff;
     border-radius: 5%;
-    height: 12.5em;
-    width: 12.5em;
+    font-family: monospace;
+    padding: 1em;
+    font-size: 100%;
+    display: block;
+    white-space: pre-wrap;
 }
 
 /*/ Outer block /*/
-section {
+.container {
     background: var(--B);
-    border: 1em solid var(--B-darker);
     border-radius: 5%;
-    height: 50em;
-    width: 50em;
+    border: 1em solid var(--B-darker);
+    display: block;
+    height: var(--B-size);
+    width: var(--B-size);
+}
+
+.container::after {
+    content: "Hover over the target to trigger the transition";
+    font-family: sans-serif;
+    font-size: small;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: -2px -2px 2px #fff, 2px -2px 2px #fff, -2px 2px 2px #fff, 2px 2px 2px #fff;
+    top: 1em;
+    width: 100%;
+}
+
+/*/ Inner block /*/
+.subject {
+    background: var(--A);
+    border-radius: 5%;
+    border: 1em solid var(--A-darker);
+    height: var(--A-size);
+    width: var(--A-size);
+
+    /*/ transition: <property> <duration> <timing-function> <delay>; /*/
+    transition-property: all;
+    transition-duration: 1.7s;
+    transition-timing-function: ease;
+    transition-delay: 0.15s;
 }
 
 /*/ Horizontally and vertically Center both blocks/*/
-body, section {
+body, .container {
     display: grid;
 }
-section, div {
+
+.container, .subject {
     margin: auto;
 }
