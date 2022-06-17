@@ -2,7 +2,7 @@
 
 This folder contains CSS Transition examples for the following Animatable CSS properties:
 
-- [ ] [`accent-color`](./accent-color.html)
+- [x] [`accent-color`](./accent-color.html)
 - [ ] [`backdrop-filter`](./backdrop-filter.html)
 - <details><summary>Background</summary>
 
