@@ -31,6 +31,7 @@ body, html {
 title {
     display: block;
 }
+
 header {
     position: absolute;
     top: 1em;
@@ -91,4 +92,27 @@ body, .container {
 
 .container, .subject {
     margin: auto;
+}
+
+/*/ Warning Dialog /*/
+dialog {
+    background: var(--A-lightest);
+    border-color: var(--A-darker);
+    border-radius: 5px;
+    border-width: 1px;
+    color: #333;
+    display: block;
+    margin: 1em 0;
+    padding: 1em;
+    text-align: center;
+}
+
+dialog:before {
+    content: "⚠️";
+    padding-right: 0.35em;
+    text-shadow: #000 0 0 1px;
+}
+
+dialog code {
+    color: #000;
 }
