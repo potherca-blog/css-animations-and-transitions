@@ -7,7 +7,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
 - <details><summary>Background</summary>
 
     - [ ] [`background`](./background.html)
-    - [ ] [`background-color`](./background-color.html)
+    - [x] [`background-color`](./background-color.html)
     - [ ] [`background-position`](./background-position.html)
     - [ ] [`background-size`](./background-size.html)
   </details>
