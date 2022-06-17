@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: border-color;</title></h1>
+  <style>
+    .container .subject {
+      border-color: var(--A);
+    }
+
+    .container:hover .subject {
+      border-color: var(--A-darkest);
+    }
+
+    .subject {
+      transition-property: border-color;
+    }
+  </style>
+</header>
+
+<section class="container">
+  <div class="subject"></div>
+</section>

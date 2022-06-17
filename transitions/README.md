@@ -28,7 +28,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
     - [ ] [`border-bottom-left-radius`](./border-bottom-left-radius.html)
     - [ ] [`border-bottom-right-radius`](./border-bottom-right-radius.html)
     - [ ] [`border-bottom-width`](./border-bottom-width.html)
-    - [ ] [`border-color`](./border-color.html)
+    - [x] [`border-color`](./border-color.html)
     - [ ] [`border-end-end-radius`](./border-end-end-radius.html)
     - [ ] [`border-end-start-radius`](./border-end-start-radius.html)
     - [ ] [`border-image-outset`](./border-image-outset.html)
