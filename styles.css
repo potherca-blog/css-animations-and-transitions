@@ -1,5 +1,6 @@
 :root {
     --A-size: 12.5em;
+    --A-offset: calc(var(--A-size) / 3);
     --B-size: calc(var(--A-size) * 3.5);
 
     /* Colors for objects that are animated */
@@ -71,11 +72,15 @@ header h1, header style {
 }
 
 /*/ Inner block /*/
-.subject {
+.subject,
+.subject::after,
+.subject::before {
     background: var(--A);
     border-radius: 5%;
     border: 1em solid var(--A-darker);
+    display: block;
     height: var(--A-size);
+    position: relative;
     width: var(--A-size);
 
     /*/ transition: <property> <duration> <timing-function> <delay>; /*/
@@ -83,6 +88,21 @@ header h1, header style {
     transition-duration: 1.7s;
     transition-timing-function: ease;
     transition-delay: 0.15s;
+}
+
+.subject::after, .subject::before {
+    position: absolute;
+    opacity: 0.85;
+}
+
+.subject::after {
+    left: calc(var(--A-offset) - 1em);
+    top: calc(var(--A-offset) - 1em);
+}
+
+.subject::before {
+    left: calc(-1 * var(--A-offset) - 1em);
+    top: calc(-1 * var(--A-offset) - 1em);
 }
 
 /*/ Horizontally and vertically Center both blocks/*/
