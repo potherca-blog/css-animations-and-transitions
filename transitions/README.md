@@ -229,5 +229,5 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
     - [ ] [`max-width`](./max-width.html)
     - [ ] [`min-width`](./min-width.html)
 - [ ] [`word-spacing`](./word-spacing.html)
-- [ ] [`z-index`](./z-index.html)
+- [x] [`z-index`](./z-index.html)
 - [ ] [`zoom`](./zoom.html)
