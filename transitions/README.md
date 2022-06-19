@@ -219,7 +219,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
     - [ ] [`text-shadow`](./text-shadow.html)
     - [ ] [`text-underline-offset`](./text-underline-offset.html)
   </details>
-- [ ] [`top`](./top.html)
+- [x] [`top`](./top.html)
 - [ ] [`transform`](./transform.html)
 - [ ] [`transform-origin`](./transform-origin.html)
 - [ ] [`translate`](./translate.html)
