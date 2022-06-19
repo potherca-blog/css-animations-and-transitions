@@ -26,7 +26,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
             - [ ] [`border-left-color`](./border-left-color.html)
             - [ ] [`border-right-color`](./border-right-color.html)
             - [ ] [`border-top-color`](./border-top-color.html)
-        - [ ] [`border-width`](./border-width.html)
+        - [x] [`border-width`](./border-width.html)
             - [ ] [`border-bottom-width`](./border-bottom-width.html)
             - [ ] [`border-left-width`](./border-left-width.html)
             - [ ] [`border-right-width`](./border-right-width.html)
