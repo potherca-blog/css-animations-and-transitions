@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: border-radius;</title></h1>
+  <style>
+    .container .subject {
+      border-radius: 0;
+    }
+
+    .container:hover .subject {
+      border-radius: 50%;
+    }
+
+    .subject {
+      transition-property: border-radius;
+    }
+  </style>
+</header>
+
+<section class="container">
+  <div class="subject"></div>
+</section>

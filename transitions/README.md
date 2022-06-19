@@ -33,7 +33,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
             - [ ] [`border-top-width`](./border-top-width.html)
         - <details><summary>Border Radius</summary>
 
-            - [ ] [`border-radius`](./border-radius.html)
+            - [x] [`border-radius`](./border-radius.html)
             - [ ] [`border-bottom-left-radius`](./border-bottom-left-radius.html)
             - [ ] [`border-bottom-right-radius`](./border-bottom-right-radius.html)
             - [ ] [`border-end-end-radius`](./border-end-end-radius.html)
