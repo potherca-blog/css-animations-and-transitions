@@ -81,6 +81,7 @@ header h1, header style {
     display: block;
     height: var(--A-size);
     position: relative;
+    text-align: center;
     width: var(--A-size);
 
     /*/ transition: <property> <duration> <timing-function> <delay>; /*/
@@ -90,10 +91,12 @@ header h1, header style {
     transition-delay: 0.15s;
 }
 
+span.subject,
 input.subject{
     border-width: 0.2em;
     font-size: 4.6em;
     height: calc(var(--A-size) / 4);
+    line-height: calc(var(--A-size) / 4);
     text-align: center;
     width: calc(var(--A-size) / 4);
 }
