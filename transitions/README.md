@@ -66,7 +66,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
   </details>
 - [x] [`bottom`](./bottom.html)
 - [ ] [`box-shadow`](./box-shadow.html)
-- [ ] [`caret-color`](./caret-color.html)
+- [x] [`caret-color`](./caret-color.html)
 - [ ] [`clip`](./clip.html)
 - [ ] [`clip-path`](./clip-path.html)
 - [ ] [`color`](./color.html)

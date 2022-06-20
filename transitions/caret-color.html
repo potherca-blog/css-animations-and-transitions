@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: caret-color;</title></h1>
+  <style>
+    .container {
+      caret-color: red;
+    }
+
+    .container:hover {
+      caret-color: lime;
+    }
+
+    .subject {
+      /*/ Only works on
+       <input> elements
+       or content-editable
+     /*/
+      transition-property: caret-color;
+    }
+  </style>
+</header>
+
+<label class="container">
+  <input class="subject" type="text" autofocus>
+</label>
