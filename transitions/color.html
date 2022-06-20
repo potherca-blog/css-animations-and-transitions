@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: color;</title></h1>
+  <style>
+    .container .subject {
+      color: var(--A-darkest);
+      transition-property: color;
+    }
+
+    .container:hover .subject {
+      color: var(--A-lightest);
+    }
+  </style>
+</header>
+
+<p class="container">
+  <span class="subject">Text</span>
+</p>

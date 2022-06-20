@@ -69,7 +69,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
 - [x] [`caret-color`](./caret-color.html)
 - [ ] [`clip`](./clip.html)
 - [ ] [`clip-path`](./clip-path.html)
-- [ ] [`color`](./color.html)
+- [x] [`color`](./color.html)
 - <details><summary>Column</summary>
 
     - [ ] [`column-count`](./column-count.html)
