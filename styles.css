@@ -1,7 +1,8 @@
 :root {
-    --A-size: 12.5em;
-    --A-offset: calc(var(--A-size) / 3);
-    --B-size: calc(var(--A-size) * 3.5);
+    --size-M: 12.5em;
+    --size-XS: calc(var(--size-M) / 3);
+    --size-XXS: calc(var(--size-M) / 4);
+    --size-XL: calc(var(--size-M) * 3.5);
 
     /* Colors for objects that are animated */
     --A-darkest: #917c0e;
@@ -55,8 +56,8 @@ header h1, header style {
     border-radius: 5%;
     border: 1em solid var(--B-darker);
     display: block;
-    height: var(--B-size);
-    width: var(--B-size);
+    height: var(--size-XL);
+    width: var(--size-XL);
 }
 
 .container::after {
@@ -79,10 +80,10 @@ header h1, header style {
     border-radius: 5%;
     border: 1em solid var(--A-darker);
     display: block;
-    height: var(--A-size);
+    height: var(--size-M);
     position: relative;
     text-align: center;
-    width: var(--A-size);
+    width: var(--size-M);
 
     /*/ transition: <property> <duration> <timing-function> <delay>; /*/
     transition-property: all;
@@ -95,10 +96,10 @@ span.subject,
 input.subject{
     border-width: 0.2em;
     font-size: 4.6em;
-    height: calc(var(--A-size) / 4);
-    line-height: calc(var(--A-size) / 4);
+    height: var(--size-XXS);
+    line-height: var(--size-XXS);
     text-align: center;
-    width: calc(var(--A-size) / 4);
+    width: var(--size-XXS);
 }
 
 .subject::after, .subject::before {
@@ -107,13 +108,13 @@ input.subject{
 }
 
 .subject::after {
-    left: calc(var(--A-offset) - 1em);
-    top: calc(var(--A-offset) - 1em);
+    left: calc(var(--size-XS) - 1em);
+    top: calc(var(--size-XS) - 1em);
 }
 
 .subject::before {
-    left: calc(-1 * var(--A-offset) - 1em);
-    top: calc(-1 * var(--A-offset) - 1em);
+    left: calc(-1 * var(--size-XS) - 1em);
+    top: calc(-1 * var(--size-XS) - 1em);
 }
 
 /*/ Horizontally and vertically Center both blocks/*/
