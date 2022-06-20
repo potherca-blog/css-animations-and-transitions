@@ -90,6 +90,14 @@ header h1, header style {
     transition-delay: 0.15s;
 }
 
+input.subject{
+    border-width: 0.2em;
+    font-size: 4.6em;
+    height: calc(var(--A-size) / 4);
+    text-align: center;
+    width: calc(var(--A-size) / 4);
+}
+
 .subject::after, .subject::before {
     position: absolute;
     opacity: 0.85;
