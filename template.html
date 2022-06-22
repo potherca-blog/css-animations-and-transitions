@@ -1,19 +1,32 @@
 <link rel="stylesheet" href="styles.css">
+
 <header>
-  <h1><title>transition-property: all;</title></h1>
+  <h1><title>transition-property: example-property;</title></h1>
   <style>
-    .container {
+    .container .subject {
+      example-property: var(--A);
     }
 
-    .container:hover {
-    }
-
-    .subject {
-      transition: all;
+    .container:hover .subject {
+      example-property: var(--B);
     }
   </style>
+  <!-- dialog open></dialog -->
 </header>
 
+<!-- Regular Template-->
 <section class="container">
   <div class="subject"></div>
 </section>
+<!-- Text/Font Template-->
+<p class="container">
+  <span class="subject">Text</span>
+</p>
+<!-- Form Template: Checkbox -->
+<label class="container">
+  <input class="subject" type="checkbox" checked readonly>
+</label>
+<!-- Form Template: Text -->
+<label class="container">
+  <input class="subject" type="text" autofocus>
+</label>
