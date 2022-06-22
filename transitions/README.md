@@ -96,6 +96,9 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
     - [ ] [`font-stretch`](./font-stretch.html)
     - [ ] [`font-variation-settings`](./font-variation-settings.html)
     - [x] [`font-weight`](./font-weight.html)
+    - [ ] [`letter-spacing`](./letter-spacing.html)
+    - [ ] [`line-height`](./line-height.html)
+    - [ ] [`word-spacing`](./word-spacing.html)
     </details>
 - <details><summary>Grid</summary>
 
@@ -123,8 +126,6 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
     - [ ] [`inset-inline-start`](./inset-inline-start.html)
   </details>
 - [ ] [`left`](./left.html)
-- [ ] [`letter-spacing`](./letter-spacing.html)
-- [ ] [`line-height`](./line-height.html)
 - <details><summary>Margin</summary>
 
     - [ ] [`margin`](./margin.html)
@@ -240,6 +241,5 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
 - [ ] [`width`](./width.html)
     - [ ] [`max-width`](./max-width.html)
     - [ ] [`min-width`](./min-width.html)
-- [ ] [`word-spacing`](./word-spacing.html)
 - [x] [`z-index`](./z-index.html)
 - [ ] [`zoom`](./zoom.html)
