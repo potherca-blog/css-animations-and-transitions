@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: line-height;</title></h1>
+  <style>
+    .container .subject {
+      line-height: var(--size-XXS);
+      transition-property: line-height;
+    }
+
+    .container:hover .subject {
+      line-height: var(--size-M);
+    }
+  </style>
+</header>
+
+<p class="container">
+  <span class="subject">Text</span>
+</p>
