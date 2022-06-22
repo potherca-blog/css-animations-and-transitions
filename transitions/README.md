@@ -109,7 +109,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
     - [ ] [`grid-template-columns`](./grid-template-columns.html)
     - [ ] [`grid-template-rows`](./grid-template-rows.html)
   </details>
-- [ ] [`height`](./height.html)
+- [x] [`height`](./height.html)
     - [ ] [`max-height`](./max-height.html)
     - [ ] [`min-height`](./min-height.html)
 - [ ] [`inline-size`](./inline-size.html)
@@ -238,7 +238,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
 - [ ] [`translate`](./translate.html)
 - [ ] [`vertical-align`](./vertical-align.html)
 - [ ] [`visibility`](./visibility.html)
-- [ ] [`width`](./width.html)
+- [x] [`width`](./width.html)
     - [ ] [`max-width`](./max-width.html)
     - [ ] [`min-width`](./min-width.html)
 - [x] [`z-index`](./z-index.html)
