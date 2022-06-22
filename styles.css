@@ -2,6 +2,7 @@
     --size-M: 12.5em;
     --size-XS: calc(var(--size-M) / 3);
     --size-XXS: calc(var(--size-M) / 4);
+    --size-L: calc(var(--size-M) * 2.5);
     --size-XL: calc(var(--size-M) * 3.5);
 
     /* Colors for objects that are animated */
