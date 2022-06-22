@@ -1,7 +1,6 @@
 # CSS Animations and Transitions
 
-For the Muze Dev Day, I want to make a simple example for each CSS animation and
-transition.
+For the [Muze Dev Day][1], I want to make a simple example for each CSS animation and transition.
 
 ## Animatable CSS properties
 
@@ -306,3 +305,5 @@ The `transition` CSS property is shorthand for:
 _<sup>
 Source: https://developer.mozilla.org/en-US/docs/Web/CSS/time
 </sup>_
+
+[1]: https://muze-nl.github.io/dev-day/
