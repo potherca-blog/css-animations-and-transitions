@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: font-size;</title></h1>
+  <style>
+    .container .subject {
+      font-size: var(--size-XS);
+      transition-property: font-size;
+    }
+
+    .container:hover .subject {
+      font-size: var(--size-XL);
+    }
+  </style>
+</header>
+
+<p class="container">
+  <span class="subject">Text</span>
+</p>

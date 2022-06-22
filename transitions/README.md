@@ -91,7 +91,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
 - <details><summary>Font</summary>
 
     - [ ] [`font`](./font.html)
-    - [ ] [`font-size`](./font-size.html)
+    - [x] [`font-size`](./font-size.html)
     - [ ] [`font-size-adjust`](./font-size-adjust.html)
     - [ ] [`font-stretch`](./font-stretch.html)
     - [ ] [`font-variation-settings`](./font-variation-settings.html)
