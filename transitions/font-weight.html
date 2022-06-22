@@ -1,0 +1,23 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<header>
+  <h1><title>transition-property: font-weight;</title></h1>
+  <style>
+    .container .subject {
+        /*/ For this to work a Variable Font must be used /*/
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+      font-family: Raleway,serif;
+      font-weight: 0;
+      transition-property: font-weight;
+    }
+
+    .container:hover .subject {
+      font-weight: 900;
+    }
+  </style>
+  <dialog open class="notice">For this to work a Variable Font must be used</dialog>
+</header>
+
+<p class="container">
+  <span class="subject">Text</span>
+</p>
