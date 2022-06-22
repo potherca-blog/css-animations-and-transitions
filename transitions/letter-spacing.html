@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: letter-spacing;</title></h1>
+  <style>
+    .container .subject {
+      letter-spacing: 0;
+      transition-property: letter-spacing;
+    }
+
+    .container:hover .subject {
+      letter-spacing: 1em;
+    }
+  </style>
+</header>
+
+<p class="container">
+  <span class="subject">Text</span>
+</p>

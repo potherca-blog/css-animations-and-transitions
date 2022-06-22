@@ -96,7 +96,7 @@ This folder contains CSS Transition examples for the following Animatable CSS pr
     - [ ] [`font-stretch`](./font-stretch.html)
     - [ ] [`font-variation-settings`](./font-variation-settings.html)
     - [x] [`font-weight`](./font-weight.html)
-    - [ ] [`letter-spacing`](./letter-spacing.html)
+    - [x] [`letter-spacing`](./letter-spacing.html)
     - [x] [`line-height`](./line-height.html)
     - [ ] [`word-spacing`](./word-spacing.html)
     </details>
