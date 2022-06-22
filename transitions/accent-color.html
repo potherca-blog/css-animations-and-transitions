@@ -3,25 +3,15 @@
 <header>
   <h1><title>transition-property: accent-color;</title></h1>
   <style>
-    .container {
+    .container .subject {
       accent-color: var(--A);
     }
 
-    .container:hover {
+    .container:hover .subject {
       accent-color: var(--B);
     }
-
-    .subject {
-      /*/ Only works on:
-
-          <input type="checkbox">
-          <input type="radio">
-          <input type="range">
-          <progress>
-      /*/
-      transition-property: accent-color;
-    }
   </style>
+  <dialog open>Only works on:<ul><li>&lt;input type="checkbox"&gt;</li><li> &lt;input type="radio"&gt;</li><li> &lt;input type="range"&gt;</li><li>&lt;progress&gt;</li></ul></dialog>
 </header>
 
 <label class="container">

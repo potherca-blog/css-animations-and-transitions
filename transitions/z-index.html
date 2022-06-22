@@ -1,30 +1,19 @@
 <link rel="stylesheet" href="../styles.css">
+
 <header>
   <h1><title>transition-property: z-index;</title></h1>
   <style>
-    .container .subject::after {
-      content: "";
-      z-index: 1;
-    }
-
     .container .subject::before {
-      content: "";
-      z-index: 2;
+      z-index: 1;
     }
 
     .container:hover .subject::after {
-      z-index: 2;
-    }
-    .container:hover .subject::before {
       z-index: 1;
     }
-
-    .subject {
-      transition: z-index;
-    }
   </style>
+
 </header>
 
 <section class="container">
-  <div class="subject"></div>
+  <div class="subject before after"></div>
 </section>

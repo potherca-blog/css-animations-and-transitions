@@ -3,22 +3,15 @@
 <header>
   <h1><title>transition-property: caret-color;</title></h1>
   <style>
-    .container {
+    .container .subject {
       caret-color: red;
     }
 
-    .container:hover {
+    .container:hover .subject {
       caret-color: lime;
     }
-
-    .subject {
-      /*/ Only works on
-       <input> elements
-       or content-editable
-     /*/
-      transition-property: caret-color;
-    }
   </style>
+  <dialog open>Only works on &lt;input&gt; elements or content-editable</dialog>
 </header>
 
 <label class="container">
