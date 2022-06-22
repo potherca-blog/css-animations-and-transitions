@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: font-stretch;</title></h1>
+  <style>
+    .container .subject {
+      font-stretch: ultra-condensed; /* 50% */
+    }
+
+    .container:hover .subject {
+      font-stretch: ultra-expanded; /* 200% */
+    }
+  </style>
+  <dialog open>This only works with <a href="https://web.dev/variable-fonts/">Variable Fonts</a> that support multiple widths. It will (obviously) not work with monospaced font-faces.</dialog>
+</header>
+
+<p class="container">
+  <span class="subject">Text</span>
+</p>
