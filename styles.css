@@ -53,6 +53,18 @@ header h1, header style {
     white-space: pre-wrap;
 }
 
+header title::after {
+    content: "\A}"
+}
+
+header title::before {
+    content: ".subject {\A    "
+}
+
+header style {
+    font-weight: 300
+}
+
 /*/ Outer block /*/
 .container {
     background: var(--B);
@@ -96,7 +108,7 @@ header h1, header style {
 }
 
 span.subject,
-input.subject{
+input.subject {
     border-width: 0.2em;
     font-size: 4.6em;
     height: var(--size-XXS);
@@ -120,6 +132,11 @@ input.subject{
     top: calc(-1 * var(--size-XS) - 1em);
 }
 
+.subject.after::after, .subject.before::before {
+    content: "";
+    z-index: 0;
+}
+
 /*/ Horizontally and vertically Center both blocks/*/
 body, .container {
     display: grid;
@@ -139,7 +156,6 @@ dialog {
     display: block;
     margin: 1em 0;
     padding: 1em;
-    text-align: center;
 }
 
 dialog:before {
@@ -148,6 +164,7 @@ dialog:before {
     text-shadow: #000 0 0 1px;
 }
 
+dialog a,
 dialog code {
     color: #000;
 }
