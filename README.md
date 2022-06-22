@@ -14,74 +14,61 @@ Besides `all`, these properties are:
 
 - `accent-color`
 - `backdrop-filter`
-- <details><summary>Background</summary>
-
-    - `background`
+- `background`
     - `background-color`
     - `background-position`
     - `background-size`
-  </details>
 - `block-size`
     - `max-block-size`
     - `min-block-size`
-- <details><summary>Border</summary>
-
-    - `border`
-        - `border-bottom`
-        - `border-left`
-        - `border-right`
-        - `border-top`
-        - `border-color`
-            - `border-bottom-color`
-            - `border-left-color`
-            - `border-right-color`
-            - `border-top-color`
-        - `border-width`
-            - `border-bottom-width`
-            - `border-left-width`
-            - `border-right-width`
-            - `border-top-width`
-        - <details><summary>Border Radius</summary>
-
-            - `border-radius`
-            - `border-bottom-left-radius`
-            - `border-bottom-right-radius`
-            - `border-end-end-radius`
-            - `border-end-start-radius`
-            - `border-start-end-radius`
-            - `border-start-start-radius`
-            - `border-top-left-radius`
-            - `border-top-right-radius`
-          </details>
-        - <details><summary>Border Block</summary>
-
-            - `border-block-end`
-            - `border-block-end-color`
-            - `border-block-end-width`
-            - `border-block-start`
-            - `border-block-start-color`
-            - `border-block-start-width`
-          </details>
-        - `border-image-outset`
-        - `border-image-slice`
-        - `border-image-width`
-        - <details><summary>Border Inline</summary>
-
-            - `border-inline-end`
-            - `border-inline-end-color`
-            - `border-inline-end-width`
-            - `border-inline-start`
-            - `border-inline-start-color`
-            - `border-inline-start-width`
-  </details>
+- `border`
+    - `border-bottom`
+    - `border-left`
+    - `border-right`
+    - `border-top`
+    - `border-color`
+        - `border-bottom-color`
+        - `border-left-color`
+        - `border-right-color`
+        - `border-top-color`
+    - `border-width`
+        - `border-bottom-width`
+        - `border-left-width`
+        - `border-right-width`
+        - `border-top-width`
+    - `border-radius`
+        - `border-bottom-left-radius`
+        - `border-bottom-right-radius`
+        - `border-end-end-radius`
+        - `border-end-start-radius`
+        - `border-start-end-radius`
+        - `border-start-start-radius`
+        - `border-top-left-radius`
+        - `border-top-right-radius`
+    - Border Block
+        - `border-block-end`
+        - `border-block-end-color`
+        - `border-block-end-width`
+        - `border-block-start`
+        - `border-block-start-color`
+        - `border-block-start-width`
+    - `border-image-outset`
+    - `border-image-slice`
+    - `border-image-width`
+    - Border Inline
+        - `border-inline-end`
+        - `border-inline-end-color`
+        - `border-inline-end-width`
+        - `border-inline-start`
+        - `border-inline-start-color`
+        - `border-inline-start-width`
 - `bottom`
 - `box-shadow`
 - `caret-color`
 - `clip`
 - `clip-path`
 - `color`
-- <details><summary>Column</summary>
-
+- Column
     - `column-count`
     - `column-gap`
     - `column-rule`
@@ -89,17 +76,13 @@ Besides `all`, these properties are:
     - `column-rule-width`
     - `column-width`
     - `columns`
-  </details>
 - `filter`
-- <details><summary>Flex</summary>
-
+- Flex
     - `flex`
     - `flex-basis`
     - `flex-grow`
     - `flex-shrink`
-  </details>
-- <details><summary>Font</summary>
-
+- Font
     - `font`
     - `font-size`
     - `font-size-adjust`
@@ -109,24 +92,20 @@ Besides `all`, these properties are:
     - `letter-spacing`
     - `line-height`
     - `word-spacing`
-    </details>
-- <details><summary>Grid</summary>
-
+- Grid
     - `gap`
     - `grid-column-gap`
     - `grid-gap`
     - `grid-row-gap`
     - `grid-template-columns`
     - `grid-template-rows`
-  </details>
 - `height`
     - `max-height`
     - `min-height`
 - `inline-size`
     - `max-inline-size`
     - `min-inline-size`
-- <details><summary>Inset</summary>
-
+- Inset
     - `inset`
     - `inset-block`
     - `inset-block-end`
@@ -134,68 +113,52 @@ Besides `all`, these properties are:
     - `inset-inline`
     - `inset-inline-end`
     - `inset-inline-start`
-  </details>
 - `left`
-- <details><summary>Margin</summary>
-
+- Margin
     - `margin`
+        - `margin-bottom`
+        - `margin-left`
+        - `margin-right`
+        - `margin-top`
     - `margin-block-end`
     - `margin-block-start`
-    - `margin-bottom`
     - `margin-inline-end`
     - `margin-inline-start`
-    - `margin-left`
-    - `margin-right`
-    - `margin-top`
-  </details>
-- <details><summary>Mask</summary>
-
-    - `mask`
+- `mask`
     - `mask-border`
     - `mask-position`
     - `mask-size`
-  </details>
 - `object-position`
-- <details><summary>Offset</summary>
-
-    - `offset`
+- `offset`
     - `offset-anchor`
     - `offset-distance`
     - `offset-path`
     - `offset-position`
     - `offset-rotate`
-  </details>
 - `opacity`
 - `order`
-- <details><summary>Outline</summary>
-
-    - `outline`
+- `outline`
     - `outline-color`
     - `outline-offset`
     - `outline-width`
-  </details>
-- <details><summary>Padding</summary>
-
+- Padding
     - `padding`
+        - `padding-bottom`
+        - `padding-left`
+        - `padding-right`
+        - `padding-top`
     - `padding-block-end`
     - `padding-block-start`
-    - `padding-bottom`
     - `padding-inline-end`
     - `padding-inline-start`
-    - `padding-left`
-    - `padding-right`
-    - `padding-top`
-  </details>
 - `perspective`
 - `perspective-origin`
 - `right`
 - `rotate`
 - `row-gap`
 - `scale`
-- <details><summary>Scroll</summary>
-
-    - <details><summary>Scroll Margin</summary>
-
+- Scroll
+    - Scroll Margin
         - `scroll-margin`
         - `scroll-margin-block`
         - `scroll-margin-block-end`
@@ -207,8 +170,7 @@ Besides `all`, these properties are:
         - `scroll-margin-left`
         - `scroll-margin-right`
         - `scroll-margin-top`
-    - <details><summary>Scroll Padding</summary>
-
+    - Scroll Padding
         - `scroll-padding`
         - `scroll-padding-block`
         - `scroll-padding-block-end`
@@ -223,16 +185,12 @@ Besides `all`, these properties are:
     - `scroll-snap-coordinate`
     - `scroll-snap-destination`
     - `scrollbar-color`
-    </details>
-- <details><summary>Shape</summary>
-
+- Shape
     - `shape-image-threshold`
     - `shape-margin`
     - `shape-outside`
-  </details>
 - `tab-size`
-- <details><summary>Text</summary>
-
+- Text
     - `text-decoration`
     - `text-decoration-color`
     - `text-decoration-thickness`
@@ -241,7 +199,6 @@ Besides `all`, these properties are:
     - `text-indent`
     - `text-shadow`
     - `text-underline-offset`
-  </details>
 - `top`
 - `transform`
 - `transform-origin`
