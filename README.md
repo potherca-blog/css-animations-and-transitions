@@ -15,53 +15,53 @@ Besides `all`, these properties are:
 - `accent-color`
 - `backdrop-filter`
 - `background`
-    - `background-color`
-    - `background-position`
-    - `background-size`
+  - `background-color`
+  - `background-position`
+  - `background-size`
 - `block-size`
-    - `max-block-size`
-    - `min-block-size`
+  - `max-block-size`
+  - `min-block-size`
 - `border`
-    - `border-bottom`
-    - `border-left`
-    - `border-right`
-    - `border-top`
-    - `border-color`
-        - `border-bottom-color`
-        - `border-left-color`
-        - `border-right-color`
-        - `border-top-color`
-    - `border-width`
-        - `border-bottom-width`
-        - `border-left-width`
-        - `border-right-width`
-        - `border-top-width`
-    - `border-radius`
-        - `border-bottom-left-radius`
-        - `border-bottom-right-radius`
-        - `border-end-end-radius`
-        - `border-end-start-radius`
-        - `border-start-end-radius`
-        - `border-start-start-radius`
-        - `border-top-left-radius`
-        - `border-top-right-radius`
-    - Border Block
-        - `border-block-end`
-        - `border-block-end-color`
-        - `border-block-end-width`
-        - `border-block-start`
-        - `border-block-start-color`
-        - `border-block-start-width`
-    - `border-image-outset`
-    - `border-image-slice`
-    - `border-image-width`
-    - Border Inline
-        - `border-inline-end`
-        - `border-inline-end-color`
-        - `border-inline-end-width`
-        - `border-inline-start`
-        - `border-inline-start-color`
-        - `border-inline-start-width`
+  - `border-bottom`
+  - `border-left`
+  - `border-right`
+  - `border-top`
+  - `border-color`
+    - `border-bottom-color`
+    - `border-left-color`
+    - `border-right-color`
+    - `border-top-color`
+  - `border-width`
+    - `border-bottom-width`
+    - `border-left-width`
+    - `border-right-width`
+    - `border-top-width`
+  - `border-radius`
+    - `border-bottom-left-radius`
+    - `border-bottom-right-radius`
+    - `border-end-end-radius`
+    - `border-end-start-radius`
+    - `border-start-end-radius`
+    - `border-start-start-radius`
+    - `border-top-left-radius`
+    - `border-top-right-radius`
+  - Border Block
+    - `border-block-end`
+    - `border-block-end-color`
+    - `border-block-end-width`
+    - `border-block-start`
+    - `border-block-start-color`
+    - `border-block-start-width`
+  - `border-image-outset`
+  - `border-image-slice`
+  - `border-image-width`
+  - Border Inline
+    - `border-inline-end`
+    - `border-inline-end-color`
+    - `border-inline-end-width`
+    - `border-inline-start`
+    - `border-inline-start-color`
+    - `border-inline-start-width`
 - `bottom`
 - `box-shadow`
 - `caret-color`
@@ -69,88 +69,88 @@ Besides `all`, these properties are:
 - `clip-path`
 - `color`
 - Column
-    - `column-count`
-    - `column-gap`
-    - `column-rule`
-    - `column-rule-color`
-    - `column-rule-width`
-    - `column-width`
-    - `columns`
+  - `column-count`
+  - `column-gap`
+  - `column-rule`
+  - `column-rule-color`
+  - `column-rule-width`
+  - `column-width`
+  - `columns`
 - `filter`
 - Flex
-    - `flex`
-    - `flex-basis`
-    - `flex-grow`
-    - `flex-shrink`
+  - `flex`
+  - `flex-basis`
+  - `flex-grow`
+  - `flex-shrink`
 - Font
-    - `font`
-    - `font-size`
-    - `font-size-adjust`
-    - `font-stretch`
-    - `font-variation-settings`
-    - `font-weight`
-    - `letter-spacing`
-    - `line-height`
-    - `word-spacing`
+  - `font`
+  - `font-size`
+  - `font-size-adjust`
+  - `font-stretch`
+  - `font-variation-settings`
+  - `font-weight`
+  - `letter-spacing`
+  - `line-height`
+  - `word-spacing`
 - Grid
-    - `gap`
-    - `grid-column-gap`
-    - `grid-gap`
-    - `grid-row-gap`
-    - `grid-template-columns`
-    - `grid-template-rows`
+  - `gap`
+  - `grid-column-gap`
+  - `grid-gap`
+  - `grid-row-gap`
+  - `grid-template-columns`
+  - `grid-template-rows`
 - `height`
-    - `max-height`
-    - `min-height`
+  - `max-height`
+  - `min-height`
 - `inline-size`
-    - `max-inline-size`
-    - `min-inline-size`
+  - `max-inline-size`
+  - `min-inline-size`
 - Inset
-    - `inset`
-    - `inset-block`
-    - `inset-block-end`
-    - `inset-block-start`
-    - `inset-inline`
-    - `inset-inline-end`
-    - `inset-inline-start`
+  - `inset`
+  - `inset-block`
+  - `inset-block-end`
+  - `inset-block-start`
+  - `inset-inline`
+  - `inset-inline-end`
+  - `inset-inline-start`
 - `left`
 - Margin
-    - `margin`
-        - `margin-bottom`
-        - `margin-left`
-        - `margin-right`
-        - `margin-top`
-    - `margin-block-end`
-    - `margin-block-start`
-    - `margin-inline-end`
-    - `margin-inline-start`
+  - `margin`
+    - `margin-bottom`
+    - `margin-left`
+    - `margin-right`
+    - `margin-top`
+  - `margin-block-end`
+  - `margin-block-start`
+  - `margin-inline-end`
+  - `margin-inline-start`
 - `mask`
-    - `mask-border`
-    - `mask-position`
-    - `mask-size`
+  - `mask-border`
+  - `mask-position`
+  - `mask-size`
 - `object-position`
 - `offset`
-    - `offset-anchor`
-    - `offset-distance`
-    - `offset-path`
-    - `offset-position`
-    - `offset-rotate`
+  - `offset-anchor`
+  - `offset-distance`
+  - `offset-path`
+  - `offset-position`
+  - `offset-rotate`
 - `opacity`
 - `order`
 - `outline`
-    - `outline-color`
-    - `outline-offset`
-    - `outline-width`
+  - `outline-color`
+  - `outline-offset`
+  - `outline-width`
 - Padding
-    - `padding`
-        - `padding-bottom`
-        - `padding-left`
-        - `padding-right`
-        - `padding-top`
-    - `padding-block-end`
-    - `padding-block-start`
-    - `padding-inline-end`
-    - `padding-inline-start`
+  - `padding`
+    - `padding-bottom`
+    - `padding-left`
+    - `padding-right`
+    - `padding-top`
+  - `padding-block-end`
+  - `padding-block-start`
+  - `padding-inline-end`
+  - `padding-inline-start`
 - `perspective`
 - `perspective-origin`
 - `right`
@@ -158,47 +158,47 @@ Besides `all`, these properties are:
 - `row-gap`
 - `scale`
 - Scroll
-    - Scroll Margin
-        - `scroll-margin`
-        - `scroll-margin-block`
-        - `scroll-margin-block-end`
-        - `scroll-margin-block-start`
-        - `scroll-margin-bottom`
-        - `scroll-margin-inline`
-        - `scroll-margin-inline-end`
-        - `scroll-margin-inline-start`
-        - `scroll-margin-left`
-        - `scroll-margin-right`
-        - `scroll-margin-top`
-    - Scroll Padding
-        - `scroll-padding`
-        - `scroll-padding-block`
-        - `scroll-padding-block-end`
-        - `scroll-padding-block-start`
-        - `scroll-padding-bottom`
-        - `scroll-padding-inline`
-        - `scroll-padding-inline-end`
-        - `scroll-padding-inline-start`
-        - `scroll-padding-left`
-        - `scroll-padding-right`
-        - `scroll-padding-top`
-    - `scroll-snap-coordinate`
-    - `scroll-snap-destination`
-    - `scrollbar-color`
+  - Scroll Margin
+    - `scroll-margin`
+    - `scroll-margin-block`
+    - `scroll-margin-block-end`
+    - `scroll-margin-block-start`
+    - `scroll-margin-bottom`
+    - `scroll-margin-inline`
+    - `scroll-margin-inline-end`
+    - `scroll-margin-inline-start`
+    - `scroll-margin-left`
+    - `scroll-margin-right`
+    - `scroll-margin-top`
+  - Scroll Padding
+    - `scroll-padding`
+    - `scroll-padding-block`
+    - `scroll-padding-block-end`
+    - `scroll-padding-block-start`
+    - `scroll-padding-bottom`
+    - `scroll-padding-inline`
+    - `scroll-padding-inline-end`
+    - `scroll-padding-inline-start`
+    - `scroll-padding-left`
+    - `scroll-padding-right`
+    - `scroll-padding-top`
+  - `scroll-snap-coordinate`
+  - `scroll-snap-destination`
+  - `scrollbar-color`
 - Shape
-    - `shape-image-threshold`
-    - `shape-margin`
-    - `shape-outside`
+  - `shape-image-threshold`
+  - `shape-margin`
+  - `shape-outside`
 - `tab-size`
 - Text
-    - `text-decoration`
-    - `text-decoration-color`
-    - `text-decoration-thickness`
-    - `text-emphasis`
-    - `text-emphasis-color`
-    - `text-indent`
-    - `text-shadow`
-    - `text-underline-offset`
+  - `text-decoration`
+  - `text-decoration-color`
+  - `text-decoration-thickness`
+  - `text-emphasis`
+  - `text-emphasis-color`
+  - `text-indent`
+  - `text-shadow`
+  - `text-underline-offset`
 - `top`
 - `transform`
 - `transform-origin`
@@ -206,8 +206,8 @@ Besides `all`, these properties are:
 - `vertical-align`
 - `visibility`
 - `width`
-    - `max-width`
-    - `min-width`
+  - `max-width`
+  - `min-width`
 - `z-index`
 - `zoom`
 
@@ -246,18 +246,18 @@ The `transition` CSS property is shorthand for:
 - **`linear`**
   Equal to cubic-bezier(0.0, 0.0, 1.0, 1.0), transitions at an even speed.
 - **`steps( n, <jumpterm>)`**
-    - **`jump-start`** or **`start`**
-      Denotes a left-continuous function, so that the first jump happens when
-      the transition begins;
-    - **`jump-end`** or **`end`**
-      Denotes a right-continuous function, so that the last jump happens when
-      the animation ends;
-    - **`jump-none`**
-      There is no jump on either end. Instead, holding at both the 0% mark and
-      the 100% mark, each for 1/n of the duration
-    - **`jump-both`**
-      Includes pauses at both the 0% and 100% marks, effectively adding a step
-      during the transition time.
+- **`jump-start`** or **`start`**
+  Denotes a left-continuous function, so that the first jump happens when
+  the transition begins;
+  - **`jump-end`** or **`end`**
+    Denotes a right-continuous function, so that the last jump happens when
+    the animation ends;
+  - **`jump-none`**
+    There is no jump on either end. Instead, holding at both the 0% mark and
+    the 100% mark, each for 1/n of the duration
+  - **`jump-both`**
+    Includes pauses at both the 0% and 100% marks, effectively adding a step
+    during the transition time.
 - **`step-start`**
   Equal to steps(1, jump-start)
 - **`step-end`**
