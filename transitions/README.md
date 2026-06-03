@@ -191,7 +191,7 @@ properties:
     - [ ] [`text-shadow`](./text-shadow.html)
     - [ ] [`text-underline-offset`](./text-underline-offset.html)
 - [x] [`top`](./top.html)
-- [ ] [`transform`](./transform.html)
+- [x] [`transform`](./transform.html)
 - [ ] [`transform-origin`](./transform-origin.html)
 - [ ] [`translate`](./translate.html)
 - [ ] [`vertical-align`](./vertical-align.html)
