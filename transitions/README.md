@@ -1,26 +1,26 @@
-# # CSS Transitions
+# CSS Transitions
 
 This folder contains CSS Transition examples for the following Animatable CSS
 properties:
 
-- [x] [`accent-color`](./accent-color.html)
+- [`accent-color`](./accent-color.html)
 - background
-  - [x] [`background-color`](./background-color.html)
+  - [`background-color`](./background-color.html)
 - border
-  - [x] [`border-color`](./border-color.html)
-  - [x] [`border-width`](./border-width.html)
-  - [x] [`border-radius`](./border-radius.html)
-- [x] [`bottom`](./bottom.html)
-- [x] [`caret-color`](./caret-color.html)
-- [x] [`color`](./color.html)
+  - [`border-color`](./border-color.html)
+  - [`border-width`](./border-width.html)
+  - [`border-radius`](./border-radius.html)
+- [`bottom`](./bottom.html)
+- [`caret-color`](./caret-color.html)
+- [`color`](./color.html)
 - Font
-  - [x] [`font-size`](./font-size.html)
-  - [x] [`font-stretch`](./font-stretch.html)
-  - [x] [`font-weight`](./font-weight.html)
-  - [x] [`letter-spacing`](./letter-spacing.html)
-  - [x] [`line-height`](./line-height.html)
-- [x] [`height`](./height.html)
-- [x] [`top`](./top.html)
-- [x] [`transform`](./transform.html)
-- [x] [`width`](./width.html)
-- [x] [`z-index`](./z-index.html)
+  - [`font-size`](./font-size.html)
+  - [`font-stretch`](./font-stretch.html)
+  - [`font-weight`](./font-weight.html)
+  - [`letter-spacing`](./letter-spacing.html)
+  - [`line-height`](./line-height.html)
+- [`height`](./height.html)
+- [`top`](./top.html)
+- [`transform`](./transform.html)
+- [`width`](./width.html)
+- [`z-index`](./z-index.html)
