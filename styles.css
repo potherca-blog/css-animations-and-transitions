@@ -2,8 +2,8 @@
 
 :root {
     --size-M: 12.5rem;
-    --size-XS: calc(var(--size-M) / 3);
-    --size-XXS: calc(var(--size-M) / 4);
+    --size-S: calc(var(--size-M) / 3);
+    --size-XS: calc(var(--size-M) / 4);
     --size-L: calc(var(--size-M) * 2.5);
     --size-XL: calc(var(--size-M) * 3.5);
 
@@ -111,10 +111,10 @@ span.subject,
 input.subject {
     border-width: calc(var(--size-M) / 10);
     font-size: 4.6em;
-    height: var(--size-XXS);
-    line-height: var(--size-XXS);
+    height: var(--size-M);
+    line-height: var(--size-M);
     text-align: center;
-    width: var(--size-XXS);
+    width: var(--size-M);
 }
 
 .subject::after, .subject::before {
@@ -123,13 +123,13 @@ input.subject {
 }
 
 .subject::after {
-    left: calc(var(--size-XS) - 1em);
-    top: calc(var(--size-XS) - 1em);
+    left: calc(var(--size-S) - 1em);
+    top: calc(var(--size-S) - 1em);
 }
 
 .subject::before {
-    left: calc(-1 * var(--size-XS) - 1em);
-    top: calc(-1 * var(--size-XS) - 1em);
+    left: calc(-1 * var(--size-S) - 1em);
+    top: calc(-1 * var(--size-S) - 1em);
 }
 
 .subject.after::after, .subject.before::before {
