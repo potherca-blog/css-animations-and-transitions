@@ -7,6 +7,7 @@ properties:
 - background
   - [`background-color`](./background-color.html)
   - [`background-position`](./background-position.html)
+  - [`background-size`](./background-size.html)
 - border
   - [`border-color`](./border-color.html)
   - [`border-width`](./border-width.html)
