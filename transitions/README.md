@@ -4,7 +4,7 @@ This folder contains CSS Transition examples for the following Animatable CSS
 properties:
 
 - [`accent-color`](./accent-color.html)
-- background
+- [`background`](./background.html)
   - [`background-color`](./background-color.html)
   - [`background-position`](./background-position.html)
   - [`background-size`](./background-size.html)

@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="../styles.css">
+
+<header>
+  <h1><title>transition-property: background;</title></h1>
+  <style>
+    .container .subject {
+        background:
+          var(--A)
+          radial-gradient(transparent, var(--A-darker), transparent)
+          no-repeat
+        ;
+    }
+
+    .container:hover .subject {
+        background:
+            var(--B)
+            radial-gradient(transparent, var(--B-darker), transparent)
+            repeat
+        ;
+    }
+  </style>
+</header>
+
+<section class="container">
+  <div class="subject"></div>
+</section>
