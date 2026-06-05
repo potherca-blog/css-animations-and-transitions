@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
-    --size-M: 12.5em;
+    --size-M: 12.5rem;
     --size-XS: calc(var(--size-M) / 3);
     --size-XXS: calc(var(--size-M) / 4);
     --size-L: calc(var(--size-M) * 2.5);
@@ -69,7 +69,7 @@ header style {
 .container {
     background: var(--B);
     border-radius: 5%;
-    border: 1em solid var(--B-darker);
+    border: calc(var(--size-M) / 10) solid var(--B-darker);
     display: block;
     height: var(--size-XL);
     width: var(--size-XL);
@@ -92,7 +92,7 @@ header style {
 .subject::before {
     background: var(--A);
     border-radius: 5%;
-    border: 1em solid var(--A-darker);
+    border: calc(var(--size-M) / 10) solid var(--A-darker);
     display: block;
     font-family: "Roboto Flex", sans-serif;
     height: var(--size-M);
@@ -109,7 +109,7 @@ header style {
 
 span.subject,
 input.subject {
-    border-width: 0.2em;
+    border-width: calc(var(--size-M) / 10);
     font-size: 4.6em;
     height: var(--size-XXS);
     line-height: var(--size-XXS);
