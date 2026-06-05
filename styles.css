@@ -90,7 +90,12 @@ header style {
 .subject,
 .subject::after,
 .subject::before {
-    background: var(--A);
+    background-color: var(--A);
+    background-image: radial-gradient(transparent, transparent, var(--A-darker), transparent, transparent);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
+
     border-radius: 5%;
     border: calc(var(--size-M) / 10) solid var(--A-darker);
     display: block;

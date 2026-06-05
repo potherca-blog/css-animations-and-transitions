@@ -6,6 +6,7 @@ properties:
 - [`accent-color`](./accent-color.html)
 - background
   - [`background-color`](./background-color.html)
+  - [`background-position`](./background-position.html)
 - border
   - [`border-color`](./border-color.html)
   - [`border-width`](./border-width.html)
