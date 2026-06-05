@@ -10,6 +10,10 @@ properties:
   - [`background-size`](./background-size.html)
 - border
   - [`border-color`](./border-color.html)
+    - [`border-bottom-color`](./border-bottom-color.html)
+    - [`border-left-color`](./border-left-color.html)
+    - [`border-right-color`](./border-right-color.html)
+    - [`border-top-color`](./border-top-color.html)
   - [`border-width`](./border-width.html)
   - [`border-radius`](./border-radius.html)
 - [`bottom`](./bottom.html)
